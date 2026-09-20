@@ -1,0 +1,10 @@
+import {renderShell} from "./modules/shell.js";
+import {initPlanner} from "./modules/planner.js";
+import {initDestinationSearch} from "./modules/destinations.js";
+import {initBudget} from "./modules/budget.js";
+import {initAlerts} from "./modules/alerts.js";
+renderShell();
+initPlanner();
+initDestinationSearch();
+initBudget();
+initAlerts();
